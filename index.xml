@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Posts</title>
+    <title>Wilo`s Posts</title>
     <link>https://luyu-fan.github.io/</link>
-    <description>Recent content on My Posts</description>
+    <description>Recent content on Wilo`s Posts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="https://luyu-fan.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Index</title>
-      <link>https://luyu-fan.github.io/index.html</link>
-      <pubDate>Sat, 17 Feb 2024 19:19:51 +0800</pubDate>
-      <guid>https://luyu-fan.github.io/index.html</guid>
-      <description>Hello, Guys! this is my first post page.</description>
-    </item>
   </channel>
 </rss>
