@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Wilo`s Posts</title>
+    <link>https://luyu-fan.github.io/posts/</link>
+    <description>Recent content in Posts on Wilo`s Posts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Feb 2024 23:56:37 +0800</lastBuildDate>
+    <atom:link href="https://luyu-fan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go_feat</title>
+      <link>https://luyu-fan.github.io/posts/go_feat/</link>
+      <pubDate>Tue, 20 Feb 2024 23:56:37 +0800</pubDate>
+      <guid>https://luyu-fan.github.io/posts/go_feat/</guid>
+      <description>package main import &amp;#34;testing&amp;#34; // 泛型函数 // 该函数标识可以对一类数据类型执行加法操作，其中T是类型参数 // 1. T为类型参数, 在使用泛型时需要为这个参数赋值 // 2. int | float32为函数中对参数类型约束 func AddAny[T int | float32 | float64 | int64](a, b T) T { return a + b } func TestAnyAdd(t *testing.T) { t.Logf(&amp;#34;V: %v&amp;#34;, AddAny[int64](12, 43)) // 显式指定 t.Logf(&amp;#34;V: %v&amp;#34;, AddAny(12.0, 43.0)) // 隐式自动推导 // AddAny(float64(12), float32(12)) // 要求必须要类型一致 } // 类型约束 // 约束时可以使用~也可以不用,区别是什么? type Ordered interface { ~int | ~int64 | ~float32 | ~float64 } // 泛型类型 type AnyMap[T any, P any] struct { K T V P } </description>
+    </item>
+    <item>
+      <title>My Post Pages</title>
+      <link>https://luyu-fan.github.io/posts/my-posts/</link>
+      <pubDate>Sat, 17 Feb 2024 19:43:39 +0800</pubDate>
+      <guid>https://luyu-fan.github.io/posts/my-posts/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
+    </item>
+  </channel>
+</rss>
