@@ -20,13 +20,5 @@
 类型约束 即约束这个函数可以使用什么样的数据类型。
 type Ordered interface { ~int | ~int64 | ~float32 | ~float64 } 约束时可以使用~也可以不用,区别是什么?</description>
     </item>
-    <item>
-      <title>My Post Pages</title>
-      <link>https://luyu-fan.github.io/notes/my-posts/</link>
-      <pubDate>Sat, 17 Feb 2024 19:43:39 +0800</pubDate>
-      <guid>https://luyu-fan.github.io/notes/my-posts/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
-    </item>
   </channel>
 </rss>
