@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WiloSite</title>
     <link>https://luyu-fan.github.io/</link>
     <description>Recent content on WiloSite</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <lastBuildDate>Tue, 20 Feb 2024 23:56:37 +0800</lastBuildDate>
     <atom:link href="https://luyu-fan.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,12 +13,7 @@
       <link>https://luyu-fan.github.io/notes/go_generic/</link>
       <pubDate>Tue, 20 Feb 2024 23:56:37 +0800</pubDate>
       <guid>https://luyu-fan.github.io/notes/go_generic/</guid>
-      <description>GO 泛型支持 在Go中，泛型是和接口类型共同构成了多态系统，但是泛型实际上也是一种妥协。
-泛型函数 指的是可以对一类数据类型进行某种逻辑操作的函数。
-// 该函数标识可以对一类数据类型执行加法操作，其中T是类型参数 // 1. T为类型参数, 在使用泛型时需要为这个参数赋值 // 2. int | float32为函数中对参数类型约束 func AddAny[T int | float32 | float64 | int64](a, b T) T { return a + b } func TestAnyAdd(t *testing.T) { t.Logf(&amp;#34;V: %v&amp;#34;, AddAny[int64](12, 43)) // 显式指定 t.Logf(&amp;#34;V: %v&amp;#34;, AddAny(12.0, 43.0)) // 隐式自动推导 // AddAny(float64(12), float32(12)) // 要求必须要类型一致 } 类型参数 &amp;amp; 类型实参。
-其中比较重要的一点是，需要在调用时传入具体数据类型作为类型实参，也可以自行推导。
-类型约束 即约束这个函数可以使用什么样的数据类型。
-type Ordered interface { ~int | ~int64 | ~float32 | ~float64 } 约束时可以使用~也可以不用,区别是什么?</description>
+      <description>GO 泛型支持 # 在Go中，泛型是和接口类型共同构成了多态系统，但是泛型实际上也是一种妥协。&#xA;泛型函数 # 指的是可以对一类数据类型进行某种逻辑操作的函数。&#xA;// 该函数标识可以对一类数据类型执行加法操作，其中T是类型参数 // 1. T为类型参数, 在使用泛型时需要为这个参数赋值 // 2. int | float32为函数中对参数类型约束 func AddAny[T int | float32 | float64 | int64](a, b T) T { return a + b } func TestAnyAdd(t *testing.T) { t.Logf(&amp;#34;V: %v&amp;#34;, AddAny[int64](12, 43)) // 显式指定 t.Logf(&amp;#34;V: %v&amp;#34;, AddAny(12.0, 43.0)) // 隐式自动推导 // AddAny(float64(12), float32(12)) // 要求必须要类型一致 } 类型参数 &amp;amp; 类型实参。&#xA;其中比较重要的一点是，需要在调用时传入具体数据类型作为类型实参，也可以自行推导。&#xA;类型约束 # 即约束这个函数可以使用什么样的数据类型。&#xA;type Ordered interface { ~int | ~int64 | ~float32 | ~float64 } 约束时可以使用~也可以不用,区别是什么?</description>
     </item>
   </channel>
 </rss>
