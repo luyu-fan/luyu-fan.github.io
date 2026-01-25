@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Galleries on Daily Post</title>
+    <link>http://localhost:1313/galleries/</link>
+    <description>Recent content in Galleries on Daily Post</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 17 Aug 2025 20:29:40 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/galleries/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Page</title>
+      <link>http://localhost:1313/galleries/scene/page/</link>
+      <pubDate>Sun, 17 Aug 2025 20:29:40 +0800</pubDate>
+      <guid>http://localhost:1313/galleries/scene/page/</guid>
+      <description>&lt;p&gt;针对需要有多个部分组成，尤其是需要有对应的静态资产文件的内容时，可以通过&#xA;创建一个对应的文件夹，里面填充对应的内容结构，这样通过hugo创建就可以产生对应的&#xA;完整静态用户文件。&lt;/p&gt;&#xA;&lt;p&gt;使用hugo再加上对应的内容类型名称，即文件夹的名字而不是文件的名字即加上.md，也不能使用content, 使用该模版创建内部一致的结构。&#xA;一般都是一个文件夹结构。&lt;/p&gt;&#xA;&lt;h2 id=&#34;文字部分&#34;&gt;文字部分&lt;/h2&gt;&#xA;&lt;p&gt;这里填充文字&lt;/p&gt;&#xA;&lt;h2 id=&#34;图像部分&#34;&gt;图像部分&lt;/h2&gt;&#xA;&lt;p&gt;这里填充图像&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
